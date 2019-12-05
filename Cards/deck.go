@@ -26,6 +26,6 @@ func (d deck) print() {
 	}
 }
 
-func (d deck) returnDeck() deck {
-	return d
+func deal(d deck, handSize int) (deck, deck) {
+	return d[:handSize], d[handSize : handSize+4]
 }
