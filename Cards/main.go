@@ -11,4 +11,5 @@ func main() {
 	remainingHand.print()
 
 	fmt.Println(cards.toString())
+	cards.saveToFile("my_deck")
 }
