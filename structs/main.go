@@ -35,7 +35,13 @@ func main() {
 			zipCode: 10000,
 		},
 	}
+	rohan.updateName("Vivek")
 	rohan.print()
+
+}
+
+func (p person) updateName(newFirstName string) {
+	p.firstName = newFirstName
 }
 
 func (p person) print() {
