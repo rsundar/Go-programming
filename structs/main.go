@@ -35,13 +35,15 @@ func main() {
 			zipCode: 10000,
 		},
 	}
-	rohan.updateName("Vivek")
+
+	rohanPointer := &rohan
+	rohanPointer.updateName("Vivek")
 	rohan.print()
 
 }
 
 func (p *person) updateName(newFirstName string) {
-	p.firstName = newFirstName
+	(*p).firstName = newFirstName
 }
 
 func (p person) print() {
