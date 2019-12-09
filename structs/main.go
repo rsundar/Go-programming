@@ -35,6 +35,9 @@ func main() {
 			zipCode: 10000,
 		},
 	}
+	rohan.print()
+}
 
-	fmt.Printf("%+v", rohan)
+func (p person) print() {
+	fmt.Printf("%+v", p)
 }
