@@ -36,8 +36,8 @@ func main() {
 		},
 	}
 
-	rohanPointer := &rohan
-	rohanPointer.updateName("Vivek")
+	// rohanPointer := &rohan
+	rohan.updateName("Vivek")
 	rohan.print()
 
 }
