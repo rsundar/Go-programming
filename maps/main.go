@@ -3,19 +3,28 @@ package main
 import "fmt"
 
 func main() {
-	var colors map[string]string
+	// var colors map[string]string
 
-	newColors := make(map[string]string)
-	// colors := map[string]string{
-	// "red":   "#ff0000",
-	// "green": "#74f500",
-	// }
+	// newColors := make(map[string]string)
+	colors := map[string]string{
+		"red":   "#ff0000",
+		"green": "#74f500",
+	}
 
-	newColors["White"] = "#ffffff"
+	// newColors["White"] = "#ffffff"
 	fmt.Println(colors)
-	fmt.Println(newColors)
+	// fmt.Println(newColors)
 
-	delete(newColors, "White")
+	// delete(newColors, "White")
 
-	fmt.Println(newColors)
+	// fmt.Println(newColors)
+
+	printMap(colors)
+}
+
+func printMap(c map[string]string) {
+
+	for color, hex := range c {
+		fmt.Println(color + ":" + hex)
+	}
 }
