@@ -7,3 +7,6 @@ Learning Golang
 - [structs](https://github.com/rsundar/Go-programming/tree/master/structs)
 - [maps](https://github.com/rsundar/Go-programming/tree/master/maps)
 - [interfaces](https://github.com/rsundar/Go-programming/tree/master/interfaces)
+- [assignment1](https://github.com/rsundar/Go-programming/tree/master/assignment1)
+- [assignment2](https://github.com/rsundar/Go-programming/tree/master/assignment2)
+- [assignment3](https://github.com/rsundar/Go-programming/tree/master/assignment3)
