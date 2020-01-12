@@ -1,6 +1,7 @@
 # Go-programming
 Learning Golang
 
-- Hello World (link)[https://github.com/rsundar/Go-programming/tree/master/hello_world]
-- Cards (link)[https://github.com/rsundar/Go-programming/tree/master/Cards]
+- [Hello World](https://github.com/rsundar/Go-programming/tree/master/hello_world)
+- [Cards](https://github.com/rsundar/Go-programming/tree/master/Cards)
+
 
