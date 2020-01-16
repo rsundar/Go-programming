@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
 
 func main() {
 	links := []string{
@@ -22,8 +25,6 @@ func checkLink(link string) {
 		fmt.Println(link, "might be down")
 		return
 	}
-	else {
-		fmt.Println(link, "is up!")
-		return
-	}
+
+	fmt.Println(link, "is up!")
 }
