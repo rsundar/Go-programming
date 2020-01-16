@@ -11,5 +11,19 @@ func main() {
 		"http://amazon.com",
 	}
 
-	fmt.Println(links)
+	for _, link := range links {
+		checkLink(link)
+	}
+}
+
+func checkLink(link string) {
+	_, err := http.Get(link)
+	if err != nil {
+		fmt.Println(link, "might be down")
+		return
+	}
+	else {
+		fmt.Println(link, "is up!")
+		return
+	}
 }
